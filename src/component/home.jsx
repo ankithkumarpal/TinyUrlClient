@@ -40,6 +40,7 @@ function Home() {
         paddingLeft: "2rem",
         paddingRight: "2rem",
         fontFamily: "Arial, Helvetica, sans-serif",
+        overflowX:"hidden"
       }}
     >
       <h1
@@ -52,7 +53,8 @@ function Home() {
           paddingTop: "2rem",
           paddingBottom: "2rem",
           color: "#6b70c2",
-          textAlign:"center"
+          textAlign:"center",
+          marginLeft:"2rem"
         }}
       >
         Convert Long Url to short Url
@@ -149,7 +151,7 @@ function Home() {
       <div
         className="content"
         style={{
-          marginTop: "6rem",
+          marginTop: "3rem",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
