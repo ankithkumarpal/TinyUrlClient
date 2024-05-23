@@ -9,7 +9,7 @@ function Home() {
     try {
       // Make axios call to your backend API
       const response = await axios.post(
-        "http://localhost:5000/generate/tiny-url",
+        "https://tnyurl.azurewebsites.net/generate/tiny-url",
         {
           longUrl: longUrl,
         }
